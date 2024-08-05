@@ -51,21 +51,21 @@ button{
     box-shadow: 2px 2px 1px 0px var(--shadow);
 }
 
-.backsplash{
+#backsplash{
     height: fit-content;
     width: 436px;
-    padding: 32px 32px;
+    padding: 24px 24px;
     background-color: var(--main-dim);
     border: 0.5px solid;
     border-color: var(--shadow);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 24px;
     box-shadow: 2px 2px 1px 1px var(--shadow);
 }
 
-.display{
+#display{
     height: 150px;
     width: 100%;
     background-color: var(--main-dim);
@@ -88,7 +88,7 @@ button{
     gap: 12px;
 }
 
-.btnAccent{
+.btnOperator, .btnSpecial, .btnEqual{
     color: var(--accent);
     background-color: var(--accent-dim);
     border-color: var(--accent-dim);

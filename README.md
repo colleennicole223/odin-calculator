@@ -40,7 +40,11 @@ Create an on-screen calculator using JavaScript, HTML, and CSS.
 - Figma (wireframe)
 - HTML
 - CSS
+  - Flex Containers 
+  - Custom Properties 
 - JavaScript 
+  - DOM Manipulation
+    - Event Listeners to update user input onto the display
 
 ### What I learned
 
