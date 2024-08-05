@@ -1,0 +1,96 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+
+    --background: #1E1E1E;
+    --main: #B5AEE0;
+    --main-dim: #7268b020;
+    --accent: #7268B0;
+    --accent-dim: #3C365E50;
+    --shadow: #3B394A;
+    --shadow: #2c2b35;
+
+    background-color: var(--background);
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1{  
+    font-weight: 400;
+    color: var(--main);
+    font-size: 86px;
+    margin: 0px;
+    padding: 0px 24px;
+    text-align: right;
+}
+
+h2{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: var(--main-dim);
+    border: 0.5px solid;
+    border-color: var(--main-dim);
+    border-radius: 50px;
+    color: var(--main);
+    font-size: 45px;
+    box-shadow: 2px 2px 1px 0px var(--shadow);
+}
+
+.backsplash{
+    height: fit-content;
+    width: 436px;
+    padding: 32px 32px;
+    background-color: var(--main-dim);
+    border: 0.5px solid;
+    border-color: var(--shadow);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    box-shadow: 2px 2px 1px 1px var(--shadow);
+}
+
+.display{
+    height: 150px;
+    width: 100%;
+    background-color: var(--main-dim);
+    border: 0.5px solid;
+    border-color: var(--main-dim);
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px 0px var(--shadow);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.selection{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.btnAccent{
+    color: var(--accent);
+    background-color: var(--accent-dim);
+    border-color: var(--accent-dim);
+}
+
