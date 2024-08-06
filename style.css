@@ -5,9 +5,9 @@ body{
 
     --background: #1E1E1E;
     --main: #B5AEE0;
-    --main-dim: #7268b020;
+    --main-dim: #7268b040;
     --accent: #7268B0;
-    --accent-dim: #3C365E50;
+    --accent-dim: #7268b020;
     --shadow: #3B394A;
     --shadow: #2c2b35;
 
@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 46px;
 
     font-family: 'Exo 2', sans-serif;
 }
@@ -35,6 +36,11 @@ h2{
     font-family: 'Exo 2', sans-serif;
     font-weight: 400;
     font-size: 45px;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+h3{
     margin: 0px;
     padding: 0px 0px;
 }
@@ -88,9 +94,12 @@ button{
     gap: 12px;
 }
 
-.btnOperator, .btnSpecial, .btnEqual{
+.btnOperator, .btnClear, .btnEqual, .btnBack{
     color: var(--accent);
     background-color: var(--accent-dim);
     border-color: var(--accent-dim);
 }
 
+#memory{
+    color: var(--accent);
+}
