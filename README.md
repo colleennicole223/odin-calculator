@@ -11,13 +11,9 @@ This is a solution to the [calculator challenge on The Odin Project](https://www
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
-
-
 
 ### The challenge
 
@@ -26,12 +22,12 @@ Create an on-screen calculator using JavaScript, HTML, and CSS.
 ### Screenshot
 
 #### Final Screenshot
-
-
+![](./screenshot-final.jpeg)
 
 ### Links
 
-
+- Solution URL: [https://github.com/colleennicole223/odin-calculator](https://github.com/colleennicole223/odin-calculator)
+- Live Site URL: [https://colleennicole223.github.io/odin-calculator/](https://colleennicole223.github.io/odin-calculator/)
 
 ## My process
 
@@ -48,15 +44,11 @@ Create an on-screen calculator using JavaScript, HTML, and CSS.
 
 ### What I learned
 
-
+- can update string to float using parseFloat()
 
 ### Continued development
 
-
-
-### Useful resources
-
-
+I have a lot of different 'if else' functions in my event listener, I would like to come back and make this cleaner once I learn of a good strategy to do so
 
 ## Author
 
@@ -64,6 +56,4 @@ Create an on-screen calculator using JavaScript, HTML, and CSS.
 - Odin Website - [The Odin Project](https://www.theodinproject.com)
 - Frontend Mentor Profile - [@colleennicole223](https://www.frontendmentor.io/profile/colleennicole223)
 
-
-## Acknowledgments
 
